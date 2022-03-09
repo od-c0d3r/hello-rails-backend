@@ -1,24 +1,67 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> React Front-end Application : [hello-react-front-end](https://github.com/od-c0d3r/hello-react-front-end/tree/frontend) and its [Pull Request](https://github.com/od-c0d3r/hello-react-front-end/pull/1)
 
-Things you may want to cover:
+# Hello Rails Back-end 
 
-* Ruby version
+> Project with a React front-end and Rails back-end and connect them to display a random message.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Rails 7 ~ _Ruby Web development framework_
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps
 
-* How to run the test suite
+- From your terminal enter in sequence
+  - `git clone git@github.com:od-c0d3r/hello-rails-backend.git`
+  - `code hello-rails-backend`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Available Scripts
 
-* Deployment instructions
+In the project directory, run in order:
 
-* ...
+- #### `rails db:create`
+
+  - Creates the project database.
+
+- #### `rails db:migrate`
+
+  - Creates the tables in the database.
+
+- #### `rails db:seed`
+
+  - Populate the tables with default records.
+
+- #### `rails server`
+
+  - Runs the app in the development mode.\
+Open `http://localhost:PORT` to view it in your browser.
+
+### Usages
+
+- End-point `/api/greeting` 
+  - Method `GET`
+  - Return random message from Stored messages in server database
+
+## Coders
+
+👤 **Omar Rashad**
+
+- GitHub: [@od-c0d3r](https://github.com/githubhandle)
+- LinkedIn: [@omarrashad](https://linkedin.com/in/omarrashad)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT](./MIT.md) licensed.

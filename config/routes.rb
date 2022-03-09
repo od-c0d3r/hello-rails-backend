@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  namespace :api, defaults: { format: 'json' } do
+    get 'greeting', to: 'api#index'
+  end
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get '*path', to: 'api/api#error', defaults: { format: 'json' }
+
+  root 'api/api#show'
 end
